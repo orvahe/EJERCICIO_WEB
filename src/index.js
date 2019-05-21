@@ -30,7 +30,7 @@ app.get("/gamas", (req, res) => {
 });
 app.get("/PCs", (req, res) => {
   let PCs = [
-    { idobject: "004", nombre: "Pavilon", precio: "1200000", marca: "HP", pantalla: "19p", procesador: "i3", ram: "4gb", almacenamiento: "1TB", bateria: "22000", distribuidor: "Compulago", }
+    { idobject: "004", nombre: "Pavilon", precio: "1200000", marca: "HP", pantalla: "19p", procesador: "intelinside", ram: "4gb", almacenamiento: "1TB", bateria: "22000", distribuidor: "Compulago", }
   ];
   res.send(PCs);
 });
